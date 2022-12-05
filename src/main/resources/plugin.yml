@@ -1,0 +1,9 @@
+name: Basecraft-Horses
+version: '${project.version}'
+main: dev.aangepast.basecrafthorses.Main
+api-version: 1.16
+commands:
+  gethorse:
+    usage: /<command>
+    permission: '*'
+    permission-message: 'You are not permitted to execute this command!'
